@@ -38,5 +38,9 @@ extra-output-files = [
 ]
 
 [rpc_endpoints]
-testnet = "${TESTNET_RPC_URL}"
-mainnet = "${MAINNET_RPC_URL}"
+testnet = "https://testnet-rpc.bitlayer.org"
+mainnet = "https://rpc.bitlayer.org"
+
+[etherscan]
+bitlayer = { key = "", chain = "200901", url = "https://api.btrscan.com/scan/api" }
+bitlayerTest = { key = "", chain = "200810", url = "https://api-testnet.bitlayer.org/scan/api" }
